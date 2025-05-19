@@ -269,7 +269,7 @@ class EditUserInfo extends StatelessWidget {
         widget: AppButton(
           loading: loadingButton,
           enabled: activeButtonWatch.active,
-          title: 'Update',
+          title: 'Update profile',
           onPressed: () async {
             if (formKey.currentState!.validate()) {
               formKey.currentState!.save();

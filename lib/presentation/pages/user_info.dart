@@ -68,7 +68,7 @@ class UserInfo extends StatelessWidget {
       bottomNavigationBar: BottomBox(
         widget: AppButton(
           enabled: !load,
-          title: 'Edit',
+          title: 'Edit profile',
           onPressed: () {
             Navigator.pushNamed(context, '/edit', arguments: userData);
           },
